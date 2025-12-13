@@ -31,7 +31,7 @@ body{
 }
 
 .main-content{
-    height: 90vh;
+    
     background-color: rgb(27, 27, 24);
     border-radius: 16px;
 }
@@ -104,6 +104,7 @@ body{
     border-bottom: 2px solid #3a3a3a;
     margin-bottom: 20px;
     padding-bottom: 20px;
+    
 }
 
 nav{
@@ -136,6 +137,14 @@ nav a{
     color: #f0efeb;
 }
 
+
+
+    
+     
+
+
+
+
 .content{
     font-size: 12;
     color: #f6e3e3;
@@ -153,4 +162,37 @@ nav a{
 #about{
     margin:40px;
 }
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
+    gap: 40px;
+}
+
+.item img{
+    
+    height:50px;
+    width: 40px;
+    
+    
+
+    
+}
+
+.item {
+    padding: 20px;
+    border-radius: 25px;
+    border: 2px  solid #292222;
+    
+    
+
+
+}
+
+
+.heading{
+    margin-left: 40px;
+}
+
+
 
