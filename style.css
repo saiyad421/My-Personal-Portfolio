@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgb(20, 18, 18);
+    background-color: rgb(23, 21, 21);
     font-family: sans-serif;
     color:whitesmoke;
     line-height: 1.6;
@@ -22,9 +22,9 @@ body{
 }
 
 .sidebar{
-    background-color: #121111;
+    background-color: #adde3a;
     height: 90vh;
-    background-color:rgba(41, 36, 36, 0.718);
+    background-color:rgba(31, 22, 22, 0.718);
     border-radius: 16px;
     padding: 30px;
 
@@ -43,7 +43,7 @@ body{
     height: 120px;
     width: 120px;
     border-radius: 80px;
-    border:  1px solid #3a3a3a
+    border:  1px solid #b9a4a4
 
 }
 
@@ -94,6 +94,63 @@ body{
 .social img{
     height: 24px;
     width: 24px;
-    text-align: center;
+    margin-left: 10px;
+    filter: grayscale(1) invert(0.7);
+    transition: fi;
+}
+
+#navigation{
+    padding: 30px 20px;
+    border-bottom: 2px solid #3a3a3a;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    text-decoration: none;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: #eeece8f4;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    
+    
+}
+
+
+.active, nav a:hover{
+    color: #daaf2f;
+
+}
+
+.adding{
+    color: #e0e0e0;
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    color: #f0efeb;
+}
+
+.content{
+    font-size: 12;
+    color: #f6e3e3;
+    text-align: justify;
+    
+}
+
+.line{
+    width: 40px;
+    height: 4px;
+    background-color: #daaf2f;
+    margin-bottom: 15px;
+}
+
+#about{
+    margin:40px;
 }
 
